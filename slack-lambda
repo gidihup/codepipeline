@@ -29,3 +29,8 @@ def lambda_handler(event, context):
         logger.error("Request failed: %d %s", e.code, e.reason)
     except URLError as e:
         logger.error("Server connection failed: %s", e.reason)
+
+##set envs
+#SLACK_CHANNEL  = aws-deployment-alerts
+#SLACK_USER     = pipeline-alerts
+#SLACK_WEBHOOK_URL = https://hooks.slack.com/services/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
