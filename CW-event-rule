@@ -1,0 +1,21 @@
+{
+  "source": [
+    "aws.codepipeline"
+  ],
+  "detail-type": [
+    "CodePipeline Pipeline Execution State Change"
+  ],
+  "detail": {
+    "pipeline": [
+      "go-payment-service-staging",
+      "go-wallet-service-staging",
+      "go-api_GW-staging",
+      "go-global-user-microservice-staging",
+      "go-financial-partner-api-staging",
+      "go-global-notification-service-staging",
+      "go-financial-partner-admin-frontend-staging",
+      "go-ussd-api-staging",
+      "go-financial-partner-frontend-staging"
+    ]
+  }
+}
